@@ -1,6 +1,8 @@
-import { AiOutlineFile, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
+import Image from "next/image";
+import { AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import { GiSuitcase, GiTie } from 'react-icons/gi';
 import { VscGithub } from 'react-icons/vsc';
+import logo from "../public/raziq_portfolio.jpg";
 
 function Intro() {
   return (
@@ -20,7 +22,7 @@ function Intro() {
           document.getElementById('portfolio')?.scrollIntoView(true);
         }}>
           <p>my projects</p>
-          <GiSuitcase className="h-4 w-4"/>
+          <GiSuitcase className="h-4 w-4" />
         </div>
       </div>
       {/* intro-right */}
@@ -28,7 +30,13 @@ function Intro() {
         <div className="absolute w-11/12 lg:w-10/12 bottom-0 h-1/2 bg-yellow-light "></div>
         <div className="absolute left-0 top-1/4 md:top-1/3 w-3/4 md:w-5/6 lg:w-3/4 shadow-2xl shadow-gray">
           <div className="relative h-full w-full">
-            <img src="/raziq_portfolio.jpg" alt="hello" className="shadow-2xl shadow-black" />
+            <div>
+              <Image
+                src={logo}
+                layout='responsive'
+                alt="Image"
+              />
+            </div>
             <div className="p-2 absolute top-1/3 left-0 bg-black -translate-x-full shadow-2xl shadow-gray">
               <VscGithub className="w-full h-auto p-2 cursor-pointer" onClick={() => { window.open('https://github.com/raziqali0306') }} />
               <AiOutlineLinkedin className="w-full h-auto p-2 cursor-pointer" onClick={() => { window.open('https://www.linkedin.com/in/raziq-ali-1ab48b21b/') }} />

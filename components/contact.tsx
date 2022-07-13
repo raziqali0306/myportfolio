@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import Quote from "./quote";
+import Image from "next/image";
+import developer from '../public/developer.png';
 
 const quote = 'Good communication is just as stimulating as black coffee, and just as hard to sleep after.'
 
@@ -11,7 +13,13 @@ function Contact() {
                 <p className="tracking-wide font-bold opacity-60 w-fit mx-auto text-4xl mb-10">Contact Me</p>
                 <div className="grid lg:grid-cols-2 gap-6 lg:gap-12">
                     <div className="contact-pic lg:flex items-center justify-center">
-                        <img src="/footer.png" alt="" className="w-4/5" />
+                        <div>
+                            <Image
+                                src={developer}
+                                layout='responsive'
+                                alt="Image"
+                            />
+                        </div>
                     </div>
                     <div>
                         <form
@@ -23,7 +31,7 @@ function Contact() {
                             <input className="bg-input px-5 text-base py-3 outline-none rounded" type="email" placeholder="Email (required)" name="email" required />
                             <input className="bg-input px-5 text-base py-3 outline-none rounded" type="text" placeholder="Subject (required)" name="subject" required />
                             <input type="text" name="_honey" className="hidden" />
-                            <input type="hidden" className="hidden" name="_next" value="http://localhost:3001/thankyou" />
+                            <input type="hidden" className="hidden" name="_next" value="https://raziqali0306.github.io/myportfolio/thankyou" />
                             <textarea className="bg-input px-5 text-base py-3 outline-none rounded" placeholder="Your Message(required)" rows={5} name='message' required />
                             <input type="submit" value="SUBMIT" className="w-fit cursor-pointer px-4 hover:px-5 py-2 border-2 tracking-widest border-orange-light duration-200 transition-all ease-in-out" />
                         </form>

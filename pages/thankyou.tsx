@@ -9,7 +9,7 @@ export default function Thankyou() {
                 <div
                     className="cursor-pointer capitalize text-orange-light w-fit mx-auto"
                     onClick={() => {
-                        router.push('http://localhost:3001/');
+                        router.push('https://raziqali0306.github.io/myportfolio/');
                     }}>goback! </div>
             </div>
         </div>
