@@ -30,13 +30,7 @@ function Intro() {
         <div className="absolute w-11/12 lg:w-10/12 bottom-0 h-1/2 bg-yellow-light "></div>
         <div className="absolute left-0 top-1/4 md:top-1/3 w-3/4 md:w-5/6 lg:w-3/4 shadow-2xl shadow-gray">
           <div className="relative h-full w-full">
-            <div>
-              <Image
-                src={logo}
-                layout='responsive'
-                alt="Image"
-              />
-            </div>
+          <img src="/raziq_portfolio.jpg" alt="hello" className="shadow-2xl shadow-black" />
             <div className="p-2 absolute top-1/3 left-0 bg-black -translate-x-full shadow-2xl shadow-gray">
               <VscGithub className="w-full h-auto p-2 cursor-pointer" onClick={() => { window.open('https://github.com/raziqali0306') }} />
               <AiOutlineLinkedin className="w-full h-auto p-2 cursor-pointer" onClick={() => { window.open('https://www.linkedin.com/in/raziq-ali-1ab48b21b/') }} />

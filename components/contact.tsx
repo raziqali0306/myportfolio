@@ -13,13 +13,7 @@ function Contact() {
                 <p className="tracking-wide font-bold opacity-60 w-fit mx-auto text-4xl mb-10">Contact Me</p>
                 <div className="grid lg:grid-cols-2 gap-6 lg:gap-12">
                     <div className="contact-pic lg:flex items-center justify-center">
-                        <div>
-                            <Image
-                                src={developer}
-                                layout='responsive'
-                                alt="Image"
-                            />
-                        </div>
+                        <img src="/developer.png" alt="" className="w-4/5" />
                     </div>
                     <div>
                         <form
