@@ -7,7 +7,7 @@ function Intro() {
     <div className="grid grid-cols-1 md:grid-cols-2 text-white uppercase md:max-h-screen">
       {/* intro-left */}
       <div className="relative intro-left bg-gradient-to-b from-orange-light to-orange-dark md:pt-56 pt-12 pb-9">
-        <p className="build absolute bottom-0 md:bottom-full md:-translate-y-1/4 h-fit translate-y-1/2 md:top-10 left-1/2 -translate-x-1/2 md:left-full font-extrabold text-white font-Montserrat tracking-widest z-50">#BUILD</p>
+        <p className="build absolute bottom-0 md:bottom-full md:-translate-y-1/4 h-fit translate-y-1/2 md:top-10 left-1/2 -translate-x-1/2 md:left-full font-extrabold text-white font-Montserrat tracking-widest z-40">#BUILD</p>
         <div className="h-fit w-full mb-10">
           <p className="intro-line-para text-base md:text-xl font-medium">programmer &</p>
           <p className="intro-line-para text-base md:text-xl font-medium">full-stack developer</p>
