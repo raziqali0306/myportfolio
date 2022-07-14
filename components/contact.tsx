@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 import Quote from "./quote";
-import Image from "next/image";
-import developer from '../public/developer.png';
 
 const quote = 'Good communication is just as stimulating as black coffee, and just as hard to sleep after.'
 
@@ -13,7 +11,7 @@ function Contact() {
                 <p className="tracking-wide font-bold opacity-60 w-fit mx-auto text-4xl mb-10">Contact Me</p>
                 <div className="grid lg:grid-cols-2 gap-6 lg:gap-12">
                     <div className="contact-pic lg:flex items-center justify-center">
-                        <img src="/developer.png" alt="" className="w-4/5" />
+                        <img src={`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3001/'}/developer.png`} alt="" className="w-4/5" />
                     </div>
                     <div>
                         <form
