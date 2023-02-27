@@ -18,6 +18,7 @@ function Timeline() {
 
     const Content: Array<Entry> = [
         { date: '2023', description: 'College graduation (soon)', type: 'graduation' },
+        { date: 'November 14 2022', description: 'Joined Apxor Technology and Solutions', type: 'work' },
         { date: 'June 3 2022', description: 'Joined Ezlens Eyewear Pvt.Ltd', type: 'work' },
         { date: 'May 31 2019', description: 'Graduated Higher Secondary', type: 'school' },
         { date: 'March 31 2017', description: 'Graduated High School', type: 'school' },
