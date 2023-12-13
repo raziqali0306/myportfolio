@@ -18,7 +18,7 @@ function Timeline() {
 
     const Content: Array<Entry> = [
         { date: 'September 1 2023', description: 'Promoted at Inncircles (Product Developer)', type: 'work' },
-        { date: '2023', description: 'Post Graduation (CSE)', type: 'graduation' },
+        { date: 'May 31 2023', description: 'Post Graduation (CSE)', type: 'graduation' },
         { date: 'March 8 2023', description: 'Joined Inncircles (Developer Intern)', type: 'work' },
         { date: 'November 14 2022', description: 'Joined Apxor Technology and Solutions (ASDE Intern)', type: 'work' },
         { date: 'June 3 2022', description: 'Joined Ezlens Eyewear Pvt.Ltd (Developer Intern)', type: 'work' },
