@@ -17,6 +17,7 @@ interface Entry {
 function Timeline() {
 
     const Content: Array<Entry> = [
+        { date: 'July 1 2024', description: 'Promoted at Inncircles (Senior Product Developer)', type: 'work' },
         { date: 'September 1 2023', description: 'Promoted at Inncircles (Product Developer)', type: 'work' },
         { date: 'May 31 2023', description: 'Post Graduation (CSE)', type: 'graduation' },
         { date: 'March 8 2023', description: 'Joined Inncircles (Developer Intern)', type: 'work' },

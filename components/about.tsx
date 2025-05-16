@@ -13,7 +13,7 @@ function About() {
                         <p className="about-text pb-6">A <span className="about-span">Computer Science</span> aspirant pursuing B.Tech (currently in VIth year) from <span className="about-span">vignan<span>&#39;</span><span className="lowercase">s</span>  institute of information technology(VIIT)</span>. Currently working as a <span className="about-span">frontend developer intern</span> at <span className="about-span">ezlens eyewear private limited</span>.</p>
                         <p className="about-text pb-6">I spend most of my leisure time on competitive programming, DSA and participate in coding contests over platforms like codechef, codeforces. Developing applications is what i like the most for now. </p>
                         <p className="about-text pb-6">I have hands-on experience in working with several languages, using which i make my most of the projects, includes Typescript & JavaScript, Python. Most of my projects are build using MERN Stack (MongoDB, ExpressJS, ReactJS and NodeJS), `NextJS and TailwindCSS`(combo which, i use and like the most in place of React.) and couple of projects using  Django as well as React-Native </p>
-                        <p className="about-text pb-6">Got an offer for me? Reach me at <span className="about-text font-medium">19l31a05d2@vignaniit.edu.in</span></p>
+                        <p className="about-text pb-6">Got an offer for me? Reach me at <span className="about-text font-medium">raziqali0306@gmail.com</span></p>
                     </div>
                     <div className="about-right ">
                         <div className="grid grid-cols-2 gap-6">
